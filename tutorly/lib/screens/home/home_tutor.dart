@@ -145,7 +145,7 @@ class _Home_TutorState extends State<Home_Tutor> {
                                       new TMajors()));
                         },
                         child: Icon(
-                          Icons.school,
+                          Icons.restaurant,
                           size: 35,
                         ),
                         fillColor: Colors.yellow,
@@ -153,7 +153,7 @@ class _Home_TutorState extends State<Home_Tutor> {
                         shape: CircleBorder(),
                       ),
                       Text(
-                        'Become a Tutor',
+                        'Log What You Ate',
                         style: TextStyle(fontSize: 20.0, color: Colors.white),
                       ),
                     ],
@@ -169,7 +169,7 @@ class _Home_TutorState extends State<Home_Tutor> {
                                       new SMajors()));
                         },
                         child: Icon(
-                          Icons.search,
+                          Icons.add_reaction_outlined,
                           size: 35,
                         ),
                         fillColor: Colors.green,
@@ -177,7 +177,7 @@ class _Home_TutorState extends State<Home_Tutor> {
                         shape: CircleBorder(),
                       ),
                       Text(
-                        'Find a Tutor',
+                        'Log How You Feel',
                         style: TextStyle(fontSize: 20.0, color: Colors.white),
                       ),
                     ],
